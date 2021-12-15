@@ -7,7 +7,7 @@ Site web shopify sous [Astro](https://astro.build) et React.
 Installer [Netlify CLI](https://cli.netlify.com/) pour le fonctionnement des fonctions serverless.
 ## Monter le site
 
-[![Déployer sur Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Erinell/shopify-react-astro)
+[![Deployer sur Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Erinell/shopify-react-astro)
 
 Cliquer sur ce bouton pour déployer le site sur Netlify. Créer un fichier `.env` à la racine du projet et ajouter ceci :
 
