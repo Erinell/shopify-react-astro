@@ -3,7 +3,7 @@
   publish = "dist"
 
 [dev]
-  command = "npm run start"
+  command = "npm run dev"
   framework = "#custom"
   port = 8888
   targetPort = 3000
