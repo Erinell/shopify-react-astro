@@ -2,25 +2,23 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00c79ab2-364d-4c1d-923b-ed0a9a3b4d2b/deploy-status)](https://app.netlify.com/sites/shopify-astro/deploys)
 
-A demo of a Shopify site using [Astro](https://astro.build) and React. If you'd like to learn how it's built and how you can do the same, [check out this blog post](https://dev.to/netlify/build-a-modern-shopping-site-with-astro-and-serverless-functions-5326)!
+Site web shopify sous [Astro](https://astro.build) et React.
+Installer [Netlify CLI](https://cli.netlify.com/) pour le fonctionnement des fonctions serverless.
+## Monter le site
 
-## Customize and make it your own
+[![Déployer sur Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Erinell/shopify-react-astro)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Erinell/shopify-react-astro)
-
-Clicking this button will clone the repo to your GitHub account and instantly deploy to Netlify. You will need to have the [Netlify CLI](https://cli.netlify.com/) installed, and a `.env` file at the top level of your project (after you clone) with the following:
+Cliquer sur ce bouton pour déployer le site sur Netlify. Créer un fichier `.env` à la racine du projet et ajouter ceci :
 
 ```bash
 SHOPIFY_STOREFRONT_API_TOKEN=example
 SHOPIFY_API_ENDPOINT=https://exampleshopify/graphql.json
 ```
 
-## Commands
-
-All commands are run from the root of the project, from a terminal. Make sure you have the [Netlify CLI](https://docs.netlify.com/cli/get-started/) installed so the serverless functions can work properly!
+## Commandes
 
 | Command         | Action                                  |
 | :-------------- | :-------------------------------------- |
-| `npm install`   | Installs dependencies                   |
-| `npm run start` | Starts local dev server                 |
-| `npm run build` | Build your production site to `./dist/` |
+| `npm install`   | Installer les dépendances               |
+| `npm run start` | Démarrer un serveur local               |
+| `npm run build` | Compiler pour production dans `./dist/` |
