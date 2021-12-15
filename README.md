@@ -3,6 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00c79ab2-364d-4c1d-923b-ed0a9a3b4d2b/deploy-status)](https://app.netlify.com/sites/shopify-astro/deploys)
 
 Site web shopify sous [Astro](https://astro.build) et React.
+
 Installer [Netlify CLI](https://cli.netlify.com/) pour le fonctionnement des fonctions serverless.
 ## Monter le site
 
